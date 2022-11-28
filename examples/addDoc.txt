@@ -1,0 +1,8 @@
+,>,                            gets two user input @0,1 (only works for numbers a,b such that a+b in [0,9] and a,b >= 0
+>>++++++[<++++++++>-]           makes a byte @2 with value 48 (6*8) for char to byte conversion
+<[>+>+<<-]                     removes the byte @2 for conversion and makes two copies of it @3,4
+                                 we make 2 copies because we need one for conversion into byte and one into char
+>[<<<->->>-]                   makes the two inputs @0,1 into their byte representations i.e '5' => 5 bby subtracting 48 @3
+<<[<+>-]                       adds the two (now byte) input numbers @0,1 together @0
+>>>[<<<<+>>>>-]                makes the result into a byte @0 by using the last conversion byte @4
+<<<<.                          prints result @0

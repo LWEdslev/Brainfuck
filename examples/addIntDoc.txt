@@ -1,0 +1,6 @@
+++                   adds 2 as the first number at position 0
+>                    changes pointer to position 1
+++++                 adds 4 as the second number at position 1
+[<+>-]               adding 1 to position 0 and subtracting 1 from position 1 until position 1 is 0, thus position 0 will be 2+4
+++++++[<++++++++>-]  adds 8, 6 times to position 0 so it can be printed as a char
+<.                   changes to position 0 and prints byte there '6'

@@ -1,0 +1,6 @@
+>+++++++++++++ puts 13 at position 1 [0, 13, ... ]
+[<++>-]        pos1 = 2*pos1         [0, 26, ... ]
+<[>++++<-]     pos1 = 4*pos1         [0, 105, ... ]
+>[>+<-]>       moves byte at pos1 to pos2 [0, 0, 105, ...]
+[<+<+>>-]      copies pos2 to pos0 and pos1 and removes pos2 in the proccess [105, 105, ... ]
+<+<.>.         adds one to pos1 and prints pos0 and then pos1 [105, 106, ... ] => "hi"
