@@ -6,6 +6,9 @@ to get user inputs at runtime
 - use `Interpreter.runWithInput(bf code, input string)`
 to input the user input at parse time
 
+Look in `examples` for programs and documentation for the programs    
+Look in `src/main/scala/Interpreter.scala` for interpreter
+
 ### Example 1
 Program that prints "hi"
 - `Interpreter.run(">+++++++++++++[<++>-]<[>++++<-]>[>+<-]>[<+<+>>-]<+<.>.")`
