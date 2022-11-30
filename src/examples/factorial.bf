@@ -1,3 +1,4 @@
+This code only works if if memory is stored in at least 16 bits
 +++++++++++++++++++++++++++++++++			c1v33 : ASCII code of !
 >++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++++++++				c2v61 : ASCII code of =
